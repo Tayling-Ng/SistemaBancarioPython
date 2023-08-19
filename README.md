@@ -27,11 +27,19 @@ Para executar o sistema bancário, basta rodar o arquivo `sistema_bancario_pytho
 
 Nayara Bernardo e Tayling Ng
 
-Se tiver alguma duvida, sinta-se à vontade para entrar em contato comigo em:
+Se tiver alguma duvida, sinta-se à vontade para entrar em contato comigo Nayara:
 
 <div> 
   <a href = "mailto:nayyarabernardo@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
   <a href="https://www.linkedin.com/in/nayyarabernardo" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
+  
+</div>
+
+Ou Tayling Ng
+
+<div> 
+  <a href = "mailto:taymng@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
+  <a href="https://www.linkedin.com/in/taylingng/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
   
 </div>
 
