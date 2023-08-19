@@ -1,7 +1,6 @@
 import sqlite3
 
 
-
 def cadastrar_usuario(nome, cpf, data_nascimento, endereco):
     conexao = sqlite3.connect("clientes.db")
     cursor = conexao.cursor()

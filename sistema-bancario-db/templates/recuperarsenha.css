@@ -1,0 +1,103 @@
+/* <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Esqueci a Senha</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    } */
+
+    /* header {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 1em;
+    } */
+
+    h1 {
+      margin: 0;
+    }
+
+    main {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 2em;
+    }
+
+    body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-repeat: no-repeat;
+    background-image: url(imagens/background/background9.jpg);
+    background-size: cover;
+    /* background-color: rgb(227, 201, 170); */
+    }
+
+    form {
+      margin-bottom: 1em;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 0.5em;
+    }
+
+    input[type="email"] {
+      width: 100%;
+      padding: 0.5em;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      margin-bottom: 1em;
+    }
+
+    input[type="submit"] {
+      background-color: #333;
+      color: white;
+      padding: 0.5em 1em;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    p {
+      margin-bottom: 1em;
+    }
+
+    a {
+      color: #333;
+      text-decoration: none;
+    }
+
+    footer {
+      background-color: #f4f4f4;
+      padding: 1em;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Esqueci a Senha</h1>
+  </header>
+
+  <main>
+    <form action="#" method="post">
+      <label for="email">Digite o endereço de e-mail cadastrado:</label>
+      <input type="email" id="email" name="email" required>
+      <input type="submit" value="Enviar">
+    </form>
+    <p>Um link de redefinição de senha será enviado para o seu e-mail.</p>
+    <p>Qualquer problema <a href="faleconosco.html">Fale Conosco</a>.</p>
+    <a href="index.html">Página Inicial</a>
+  </main>
+
+  <footer>
+    <!-- Inclua informações adicionais ou links úteis aqui -->
+  </footer>
+</body>
+</html>

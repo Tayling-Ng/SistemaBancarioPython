@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 30;
+}
+
+body {
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-style: italic;
+    font-style: inherit;
+    background-image: url(imagens/background/teste4.png);
+    background-size: cover;
+}
+
+h1 {
+    text-align: left;
+    margin: 100px;
+    color: #211c1c;
+    font-size: x-large;
+    font-family: 'Poppins, Helvetica, sans-serif';
+    font-size: 70px;
+    margin-bottom: 10px;
+    margin-top: 70px;
+}
+
+h2 {
+    text-align: left;
+    margin: 175px;
+    color: #121111;
+    font-size: x-large;
+    font-family: 'Poppins, Helvetica, sans-serif';
+    font-size: 38px;
+    margin-top: 05px;
+}
+
+.menu {
+    list-style: none;
+    border: 20px;
+    solid: #ffffff;
+    float: left;
+    font-weight: bold;
+    gap: 1px;
+}
+
+.menu li {
+    position: relative;
+    float: left;
+    border-right: 1px solid: #ffffff;
+}
+
+.menu li a {
+    color: #f8f8fa;
+    text-decoration: none;
+    padding: 5px 10px;
+    display: block;
+}
+
+/*
+.menu li a:hover {
+    background: #f7f8f8;
+    color: #f7f7f8;
+    -moz-box-shadow: 0 3px 10px 0 #c57915;
+    -webkit-box-shadow: 0 3px 10px 0 #efeef1;
+    text-shadow: 0px 0px 5px #ffffff;
+}
+*/
+
+.menu li ul {
+    position: absolute;
+    top: 25px;
+    left: 0;
+    background: color #f0111c;
+    display: none;
+}
+
+.menu li:hover ul,
+.menu li.hover ul {
+    display: block;
+}
+
+.menu li ul li {
+    border: 1px solid: #18abc5;
+    display: block;
+    width: 150px;
+
+}
+
+.texto {
+    column-count: 1;
+    /* Número de colunas */
+    column-gap: 50px;
+    /* Espaçamento entre as colunas */
+    max-width: 600px;
+    /* Largura máxima das colunas */
+    margin: 50px;
+    /* Centralizar o conteúdo */
+    padding: 25px;
+    /* Espaçamento interno */
+    float: left;
+    font-family: 'Poppins, Helvetica, sans-serif';
+    text-align: justify;
+    font-size: 1.5em;
+
+}
+
+/* Estilo do rodapé (footer) 
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+a {
+    display: block;
+    text-align: center;
+    background-color: #333;
+    color: #4a87e8;
+    text-decoration: none;
+    margin-top: 0;
+    transition: 0.9s;
+    padding: 20px 0;
+}
+
+a:hover {
+    opacity: 0.5;
+} */
+

@@ -1,0 +1,75 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  /* background-color: #f2f2f2; */
+  background-image: url(imagens/background/fundo-verde2.jpg);
+  background-size: cover;
+}
+
+.container {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 300px;
+}
+
+.login-form h1 {
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 05px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #000000;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #000000;
+}
+
+.links {
+  margin-top: 10px;
+}
+
+.links a {
+  display: block;
+  text-align: center;
+  margin-bottom: 5px;
+  color: #000000;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.links a:last-child {
+  margin-bottom: 0;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
