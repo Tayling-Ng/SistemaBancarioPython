@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sobre</title>
+    <style>
+    body {
+        font-family: Arial, sans-serif;
+        background-image: url('{{ url_for("static", filename="imagens/fundo-verde2.jpg") }}');
+        background-size: cover;
+        margin: 0;
+        padding: 0;
+      }
+      
+      main {
+        max-width: 600px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: #ffffff;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      }
+      
+      h1 {
+        text-align: center;
+        color: #333;
+      }
+      
+      h3 {
+        /* te xt-align: center; */
+        color: #080808;
+        text-align: justify;
+      }
+      
+      form {
+        display: flex;
+        flex-direction: column;
+      }
+      
+      label {
+        margin-bottom: 8px;
+        font-weight: bold;
+        color: #555;
+      }
+      
+      input,
+      textarea {
+        padding: 15px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 05px;
+      }
+      
+      textarea {
+        padding: 30px;
+        resize: vertical;
+      }
+      
+      button {
+        background-color: #0d0e0d;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 05px;
+        cursor: pointer;
+        transition: 0.3s;
+        font-size: 15px;
+      }
+      
+      button:hover {
+        opacity: 0.7;
+      }      
+      a {
+        display: block;
+        text-align: center;
+        /* background-color: #fff; */
+        color: #050505;
+        text-decoration: none;
+        /* text-decoration: underline; */
+        margin-top: 15px;
+        transition: 0.9s;
+        font-size: 15px;
+      }
+      
+      a:hover {
+        opacity: 0.7;
+      }
+      
+      /* Responsivo */
+      
+      @media (max-width: 600px) {
+        nav li {
+          display: block;
+          margin-right: 0;
+          margin-bottom: 10px;
+        }
+      
+        nav ul {
+          text-align: center;
+        }
+      }
+  </style>  
+
+  </head>
+  <body>
+    <main>
+      <h1>Nossa História</h1>
+      <h3>
+        Criado pelas visionárias Nayara Bernardo e Tayling Ng, o BankHer é um banco digital revolucionário. Fundado com a missão de capacitar mulheres e promover igualdade de gênero, o BankHer oferece serviços bancários convenientes e uma plataforma de aprendizado vibrante. Com uma equipe diversificada, produtos inovadores e uma comunidade engajada, o BankHer vai além das finanças, tornando-se um símbolo de independência financeira e colaboração. Junte-se a nós e faça parte de uma revolução financeira inclusiva no BankHer. 
+    <br>
+    <br>
+    Bem-vinda ao ByteBank, onde o futuro financeiro é feminino e inclusivo. Juntos, estamos construindo um legado de impacto e igualdade.
+      </h3>
+      <br />
+
+      <a href="index.html">Página Inicial</a>
+    </main>
+  </body>
+</html>

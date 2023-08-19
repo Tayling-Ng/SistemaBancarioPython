@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="html,css,javascript">
+    <title>ByteBank</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 30;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 13px;
+            font-style: italic;
+            background-image: url('{{ url_for("static", filename="imagens/teste4.png") }}');
+            background-size: cover; 
+            }
+
+        h1 {
+            text-align: left;
+            margin: 100px;
+            color: #211c1c;
+            font-size: x-large;
+            font-family: 'Poppins, Helvetica, sans-serif';
+            font-size: 70px;
+            margin-bottom: 10px;
+            margin-top: 70px;
+        }
+
+        h2 {
+            text-align: left;
+            margin: 175px;
+            color: #121111;
+            font-size: x-large;
+            font-family: 'Poppins, Helvetica, sans-serif';
+            font-size: 38px;
+            margin-top: 05px;
+        }
+
+        .menu {
+            list-style: none;
+            border: 20px;
+            solid: #ffffff;
+            float: left;
+            font-weight: bold;
+            gap: 1px;
+        }
+
+        .menu li {
+            position: relative;
+            float: left;
+            border-right: 1px;
+            solid: #ffffff;
+        }
+
+        .menu li a {
+            color: #f8f8fa;
+            text-decoration: none;
+            padding: 5px 10px;
+            display: block;
+        }
+
+        .menu li ul {
+            position: absolute;
+            top: 25px;
+            left: 0;
+            background: color #f0111c;
+            display: none;
+        }
+
+        .menu li:hover ul,
+        .menu li.hover ul {
+            display: block;
+        }
+
+        .menu li ul li {
+            border: 1px;
+            solid: #18abc5;
+            display: block;
+            width: 150px;
+
+        }
+
+        .texto {
+            column-count: 1;
+            /* Número de colunas */
+            column-gap: 50px;
+            /* Espaçamento entre as colunas */
+            max-width: 600px;
+            /* Largura máxima das colunas */
+            margin: 50px;
+            /* Centralizar o conteúdo */
+            padding: 25px;
+            /* Espaçamento interno */
+            float: left;
+            font-family: 'Poppins, Helvetica, sans-serif';
+            text-align: justify;
+            font-size: 1.5em;
+
+        }
+
+
+      </style>
+</head>
+
+<body>
+    <nav><br>
+        <ul class="menu">
+           <li><a href="sobre.html">ByteBank</a></li>
+            <li><a href="faleconosco.html">Fale Conosco</a></li>
+            <li><a href="cadastro.html">Crie Sua Conta</a></li>
+            <li><a href="login.html">Login</a></li>
+        </ul>
+    </nav>
+        <h1>&nbsp;&nbsp;&nbsp;&nbsp;ByteBank</h1>
+          <h2>Seu Banco Digital</h2>
+
+        <div class="texto">
+        </br>
+
+        </br>
+        </div>     
+        </br>
+        </br>
+        </br>
+        </br>
+        </br>
+        </br>
+        </br>
+        </br>
+        </br>
+        </br>
+        </br>
+        </br>
+        </br>
+        </br>
+        </br>
+        </br>
+        </br>
+        </br>
+        </br>
+        </br>
+        </br>
+        </br>
+        </br>
+        
+    <footer>
+        <p>&copy; <strong> Developer Tayling Ng e Nayara Bernardo </strong></p>
+    </footer> 
+   
+</body>
+</html>
