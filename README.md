@@ -6,18 +6,18 @@ Este é um projeto desenvolvido para o curso de Ciência de Dados com Python ofe
 
 O sistema implementa as seguintes operações bancárias:
 
-- Criação de Usuários
-- Criação de Contas Bancárias
-- Depósito
-- Saque
-- Extrato
+-   Criação de Usuários
+-   Criação de Contas Bancárias
+-   Depósito
+-   Saque
+-   Extrato
 
 Além disso, existem validações para:
 
-- Não permitir depósitos ou saques com valores negativos
-- Não permitir saques acima do saldo disponível
-- Não permitir saques acima do limite diário por cliente
-- Não permitir mais de 2 saques por dia por cliente
+-   Não permitir depósitos ou saques com valores negativos
+-   Não permitir saques acima do saldo disponível
+-   Não permitir saques acima do limite diário por cliente
+-   Não permitir mais de 2 saques por dia por cliente
 
 ### Como utilizar
 
@@ -25,7 +25,9 @@ Para executar o sistema bancário, basta rodar o arquivo `sistema_bancario_pytho
 
 ### Autor
 
-Se tiver alguma duvida, sinta-se à vontade para entrar em contato comigo em: 
+Nayara Bernardo e Tayling Ng
+
+Se tiver alguma duvida, sinta-se à vontade para entrar em contato comigo em:
 
 <div> 
   <a href = "mailto:nayyarabernardo@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
