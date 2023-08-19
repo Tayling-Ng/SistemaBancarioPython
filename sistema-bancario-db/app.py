@@ -8,39 +8,26 @@ app = Flask(__name__)
 def index():
     return render_template('index.html')
 
-@app.route('/cadastrar', methods=['POST'])
-def cadastrar():
-    nome = request.form['nome']
-    cpf = request.form['cpf']
-    data_nascimento = request.form['data_nascimento']
-    endereco = request.form['endereco']
-    
-    cadastrar_usuario(nome, cpf, data_nascimento, endereco)
-    
-    return redirect(url_for('index'))
+@app.route('/index.html')
+def index2():
+    return render_template('index.html')
 
-@app.route('/transacoes', methods=['POST'])
-def transacoes():
-    numero_conta = int(request.form['numero_conta'])
-    opcao_transacao = request.form['opcao_transacao']
-    valor_str = request.form['valor']
-    
-    if not valor_str:
-        return "Valor não pode ser vazio. <a href='/'>Voltar</a>"
-    
-    try:
-        valor = float(valor_str)
-    except ValueError:
-        return "Valor inválido. <a href='/'>Voltar</a>"
-    
-    if opcao_transacao == '1':
-        depositar(numero_conta, valor)
-    elif opcao_transacao == '2':
-        sacar(numero_conta, valor)
-    elif opcao_transacao == '3':
-        extrato(numero_conta)
-    
-    return redirect(url_for('index'))
+@app.route('/sobre.html')
+def sobre():
+    return render_template('sobre.html')
+
+@app.route('/faleconosco.html')
+def faleconosco():
+    return render_template('faleconosco.html')
+
+@app.route('/cadastro.html')
+def cadastro():
+    return render_template('cadastro.html')
+
+@app.route('/login.html')
+def login():
+    return render_template('login.html')
+
 
 if __name__ == '__main__':
     app.run(debug=True)
