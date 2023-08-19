@@ -21,14 +21,6 @@ def cadastrar_usuario(nome, cpf, data_nascimento, endereco):
 
     conexao.close()
 
-    print("Usuário cadastrado com sucesso!")
-    print(f"Informações do usuário:")
-    print(f"Nome: {nome}")
-    print(f"CPF: {cpf}")
-    print(f"Data de Nascimento: {data_nascimento}")
-    print(f"Endereço: {endereco}")
-    print(f"Número da Conta: {numero_conta}")
-    print("                                                                        ")
 
 
 
